@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <div closs="container mt-4">
+        <div class="border rounded p-5 "></div>
+        <form class="row g-3">
+            <div class="col-12 col-md-6">
+                <label for="exampleFormControlinput1 " class="form-label ">First name*</label>
+                <input type="text" class="form-control w-75" id="exampleFormControlinput2" placeholder="last Name"
+                    name="in">
+
+            </div>
+            <div class="col-12 col-md-6 ">
+                <label for="exampleFormControlinput2" class="form-label ">last Name (optional)</label>
+                <input type="text" class="form-control w-75 " id="exampleFormControlinput2" placeholder="Last Name"
+                    name="ln">
+            </div>
+
+            <div class="col-12 col-md-6">
+                <label for="exampleFormControlinput3" class="form-label ">Date of birth*</label>
+                <input type="date" class="form-control w-75" id="exampleFormControlinput3" name="date" required>
+            </div>
+
+
+
+            <div class="col-12 col-md-6">
+                <label for="exampleFormControlinput4" class="form-label ">Date of birth*</label>
+                <select class="form-select w-75" aria-label="default select exampleFormControlinput4 " disabled>
+                    <option>open this select menu</option>
+                    <option value="usa">USA</option>
+                    <option value="ru">Russia</option>
+                    <option value="uz" selected>Uzbekstan</option>
+                    <option value="pa">Pakistan</option>
+                    <option value="kz">Kazakhistan</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="exampleFormControlinput5" class="form-label ">Email address*</label>
+                <input type="email" class="form-control w-75" id="exampleFormControlinput3" name="email" required>
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="inputPassword6" class="form-label ">Password*</label>
+                <input type="password" id="inputPassword6" class="form-control w-75" aria-describedby="passwordhelpbock"
+                    placeholder="write you password" name="pswd" required>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <label for="exampleFormControlinput7" class="form-label ">Phone Number (optional)</label>
+                <input type="tel" class="form-control w75" id="exampleFormControlinput7" placeholder="+998 ** *** ** **"
+                    name="tel" pattern="[+]{1}[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}" value="+998">
+                    
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="exampleFormControlinput8" class="form-label ">Drop your images* (only images)</label>
+                <input type="file" class="form-control w-75" id="exampleFormControlinput8" name="images"
+                    accept="image/*" multipel required>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <label class="mb-2">Gender:</label>
+
+                <div class="mx-3">
+                    <div class="form-check">
+                        <input class="form-check-input"
+                        type="radio" name="gender" value="female" id="flexRadioDefault1">
+                            <label class="form-check-label " for="flexRadioDefault1">
+                                Female
+                            </label>
+                    </div>
+                    
+
+                    <div class="form-check">
+                        <input class="form-check-input " type="radio" name="gender" value="male" id="flexRadioDefault2">
+                        <label class="form-check-label " for="flexRadioDefault2">
+                            male
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input class="form-check-input"
+                    class="form-check-input" type="radio" name="gender" id="flexRadioDefault3" checked>
+                        <label class="form-check-label " for="flexRadioDefault3">
+                            No Specific
+                        </label>
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+                        <div class="d-flex align-items-lg-center h-100">
+                            <div class="form-check ">
+                                <input class="form-check-input " type="checkbox" name="married" id="flexRadioDefault">
+                                <label class="form-check-label " for="flexRadioDefault3">
+                                    Married
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="textarea" class="mb-2">Feedback (Optinoal)</label>
+                        <textarea class="form-control  w-75" placeholder="write a feedback here" id="textarea"
+                            style="height: 100px"></textarea>
+                    </div>
+
+                    <div class="col-12 col-md-6 ">
+                        <label for="exampleFormControlinput" class="form-label ">color picker</label>
+                        <input type="color" class="form-control form-control-color" id="exampleFormControlinput" titel="choose your color" value="#000000" required >
+                    </div>    
+
+
+
+                        <div class="col-12 col-md-6 d-flex gap-4">
+                            <button type="submit" class="btn btn-outline-success ">
+                                Submit
+                            </button>
+                            <button type="reset" class="btn btn-outline-danger "> Reset</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+
+
+
+                <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
